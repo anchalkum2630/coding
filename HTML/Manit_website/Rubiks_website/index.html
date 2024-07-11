@@ -1,0 +1,348 @@
+<html>
+    <head>
+        <title>Rubiks_page</title>
+    </head>
+    <style>
+        body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background-color:rgb(238, 238, 223); */
+}
+    .container_1{
+      /* background-color: rgb(60, 56, 56); */
+        background:linear-gradient(to bottom right, #3498db, #f1c40f);
+        display: flex;
+        width:100%;
+        height:60px;
+        /* background-image: url(dance6.jpg);
+  background-size: cover;
+  background-position: center; */
+  /* opacity: 0.6; */
+    }
+    .rubiks-club-logo{
+        margin: 0 10 0 10;
+        border-radius:50%;
+        height:70px;
+    }
+    .rubiks-club-logo img {
+    width: 100%; /* Make the image fill the container */
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+  }
+    .manit-logo{
+        margin: 10 10 0 10;
+        height:45px;
+    }
+    .manit-logo img {
+    width: 100%; /* Make the image fill the container */
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+  }
+    .rubiks-text{
+        margin: auto;
+        height:80px;
+        font-family: "Dancing Script", cursive;
+        font-size: larger;
+    }
+nav {
+  /* background-color: #333; */
+  width: 55%;
+  height:50px;
+  /* border: black 1px solid; */
+  margin: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  display: flex;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 35px;
+}
+
+nav ul li a {
+  color:rgb(13, 13, 13);
+  text-decoration: none;
+  padding: 5px;
+  font-size: larger;
+  font-weight:bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav ul li a:hover {
+  /* color:rgb(244, 244, 244); */
+  border-bottom:black 2px solid;
+}
+.container_2{
+  width:100%;
+  height:90%;
+}
+.container_21{
+  width:100%;
+  height:100%;
+  background-image: url(dance6.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.6;
+}
+.container_22 h1{
+  width:55%;
+  height:45%;
+  position: relative;
+  margin:-480px 0px 0px 500px;
+  font-size: 50px;
+  color: black;
+  /* border:purple 1px solid; */
+
+}
+.container_22 h6{
+  width:55%;
+  height:45%;
+  position: relative;
+  margin:-250px 0px 0px 700px;
+  font-size: 20px;
+  color: black;
+  /* border:purple 1px solid; */
+
+}
+.container_3{
+  width:80%;
+  height:50%;
+  border:black 1px solid;
+  margin: 40 0 90 150;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display:flex;
+  padding:10;
+  box-shadow:5px -10px 5px 5px rgba(0, 0, 0, 0.5);
+  background-color: rgb(193, 232, 247);
+}
+
+.container_3 p h2{
+  width:20%;
+  border: #3498db 7px solid;
+}
+.container_31{
+  width:100%;
+  height:90%;
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  /* border:red 1px solid; */
+  margin:0 0 0 0;
+}
+.container_4{
+  width:80%;
+  height:140%;
+  border:black 1px solid;
+  margin: 40 0 90 150;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* display:flex; */
+  padding:10;
+  box-shadow:5px -10px 5px 5px rgba(0, 0, 0, 0.5);
+  background-color: rgb(193, 232, 247);
+}
+.container_41{
+  display:flex;
+  width: 100%;
+  height: 40%;
+  
+}
+.container_image1{
+  width:25%;
+  height:100%;
+  background-image: url(image_4.JPG);
+  background-position: center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  margin: 10px;
+  border-radius: 25px;
+}
+.container_image2{
+  width:25%;
+  height:100%;
+  background-image: url(image_2.JPG);
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  margin: 10px ;
+  border-radius: 25px;
+}
+.container_image3{
+  width:25%;
+  height:100%;
+  background-image: url(teac3.JPG);
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  margin: 10px ;
+  border-radius: 25px;
+}
+.container_image4{
+  width:25%;
+  height:100%;
+  background-image: url(image_5.JPG);
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  margin: 10px ;
+  border-radius: 25px;
+}
+.container_42{
+  display:flex;
+  width: 100%;
+  height: 40%;
+}
+.container_video1 video{
+  width:90%;
+  height:100%;
+  background-image: url(teac1.JPG);
+  background-size: cover;
+  background-position: center;
+  margin: 0px 30px ;
+  border-radius: 25px;
+}
+.container_video2 video{
+  width:90%;
+  height:100%;
+  background-image: url(teac1.JPG);
+  background-size: cover;
+  background-position: center;
+  margin: 0px 30px ;
+  border-radius: 25px;
+}
+.c_4_button{
+  border-radius: 5%;
+}
+.c_4_button a{
+  width:10%;
+  height:3%;
+  margin: 400 550; 
+  justify-content: center;
+  position: relative;
+  background-color: rgb(53, 188, 125);
+  font-size: large;
+  text-decoration: none;
+  color: black;
+  border: black 1px solid;
+  padding: 4px;
+  border-radius: 15px;
+}
+.c_4_button a:hover{
+  background-color: black;
+  color: white;
+
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+}
+
+.disclaimer {
+    margin-top: 10px;
+}
+
+    </style>
+    <body>
+        <div class="container_1">
+            <div class="manit-logo"><img src="manit.png"></div>
+            <!-- <div class="rubiks-text"><h1>Rubiks Club</h1></div> -->
+            <nav>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Former Member</a></li>
+                <li><a href="team.html">Teams</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">About</a></li>
+              </ul>
+            </nav>
+            <div class="rubiks-club-logo"><img src="rubiks_1.png"></div>
+        </div>
+        <div class="container_2">
+          <div class="container_21"></div>
+          <div class="container_22">
+            <h1>Welcome To Rubik's Club</h1><br>
+            <h6>The Cultural Club</h6>
+          </div>
+        </div>
+        <!--  -->
+          <div class="container_3">
+          <div class="container_30">
+          <p>
+            <h1><center>About</center></h1>
+            <h2>
+              MCA Association is a body incubated by Department of Computer Application, MANIT Bhopal. We work to build and manage the Alumni Network as well as guide the current students at MCA towards the achievement of their goals.
+              We house two clubs, Matrix and Rubiks. The first one is the technical club while the later is the cultural club. As their name suggest, we work with these two clubs to bring better opportunities to the students and enhance their technical as well as non technical skills.
+            
+            </h2>
+          </p>
+        </div>
+          <div class="container_31">
+            <img src="teac1.JPG">
+          </div>
+        </div>
+        <div class="container_4">
+          <h2><center><bold>Photo Gallery</bold></center></h2>
+          <div class="container_41">
+            <div class="container_image1"></div>
+            <div class="container_image2"></div>
+            <div class="container_image3"></div>
+            <div class="container_image4"></div>          
+          </div>
+          <h2><bold><center>Video Gallery</center></bold></h2>
+          <div class="container_42">
+            <div class="container_video1"><video controls>
+              <source src="video_1.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video></div>
+            <div class="container_video2"><video controls>
+              <source src="video_2.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video></div>
+          </div><br><br>
+          <div class="c_4_button"><a href="https://drive.google.com/drive/folders/1lZL-0WyvKoK4El9oDs2vk0nJDZaB_DW3" target="_blank">More Gallery</a></div>
+        </div>
+        <footer>
+          <div class="footer-content">
+              <div class="contact-info">
+                  <h3>Contact Us</h3>
+                  <p>Email: rubiksclub@example.com</p>
+                  <p>Phone: +1234567890</p>
+                  <p>Address: RUBIK’S Club, MANIT, Bhopal</p>
+              </div>
+              <div class="social-icons">
+                  <a href="https://www.facebook.com/profile.php?id=100090474402501" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+                  <a href="https://www.linkedin.com/company/rubiks-club-mbc-nit-bhopal/" target="_blank"><img src="linkedin.png" alt="Twitter"></a>
+                  <a href="https://www.instagram.com/rubiks.nitb?igsh=MXNudGloeGU2NzU3bw==" target="_blank"><img src="insta.png" alt="Instagram"></a>
+              </div>
+          </div>
+          <div class="disclaimer">
+              <p>&copy; 2024 RUBIK’S Club. All Rights Reserved.</p>
+          </div>
+      </footer>
+      
+    </body>
+</html>

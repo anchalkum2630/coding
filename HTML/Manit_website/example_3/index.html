@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RUBIK’S Club</title>
+</head>
+<style>
+    /* Reset some default styles */
+body, ul, li, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+header img {
+    margin-left: 10px;
+}
+
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.content {
+    padding: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.gallery .item {
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery .item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.gallery .item .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+</style>
+<body>
+<header>
+    <div class="header-container">
+        <h1>RUBIK’S Club</h1>
+        <img src="rubiks-club-logo.png" alt="RUBIK’S Club Logo">
+        <img src="manit-logo.png" alt="MANIT Logo">
+    </div>
+</header>
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Former Members</a></li>
+        <li><a href="#">Teams</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+</nav>
+<div class="content">
+    <h2>Photo and Video Library</h2>
+    <div class="gallery">
+        <!-- Add photos and videos here -->
+        <div class="item">
+            <img src="teacher-day-photo1.jpg" alt="Teacher's Day Photo 1">
+            <span class="caption">Teacher's Day Celebration</span>
+        </div>
+        <div class="item">
+            <img src="teacher-day-photo2.jpg" alt="Teacher's Day Photo 2">
+            <span class="caption">Teacher's Day Celebration</span>
+        </div>
+    </div>
+</div>
+<footer>
+    <p>Disclaimer about the club.</p>
+    <p>Custom footer of your choice.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

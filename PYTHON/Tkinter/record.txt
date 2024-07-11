@@ -1,0 +1,6 @@
+Anchal,9060,female,6666,debit,1
+Anchal,9060,female,6666,credit,1
+Anchal,9060,male,6666,credit,1
+roshani,9060,male,6666,credit,1
+harstuti,9080,female,3456,debit,1
+harstuti,9080,female,3456,debit,0

@@ -1,0 +1,1 @@
+res=num+sum(num-1,res);

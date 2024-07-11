@@ -1,0 +1,11 @@
+f1=int(input("Enter marks of student 1 : "))
+f1=int(input("Enter marks of student 1 : "))
+f2=int(input("Enter marks of student 2 : "))
+f3=int(input("Enter marks of student 3 : "))
+f4=int(input("Enter marks of student 4 : "))
+f5=int(input("Enter marks of student 5 : "))
+f6=int(input("Enter marks of student 6 : "))
+f7=int(input("Enter marks of student 7 : "))
+fruit_list=[f1,f2,f3,f4,f5,f6,f7]
+fruit_list.sort()
+print(fruit_list)

@@ -1,0 +1,25 @@
+scroll_x=ttk.Scrollbar(Detailsframe,orient=HORIZONTAL)
+        # scroll_y=ttk.Scrollbar(Detailsframe,orient=VERTICAL)
+        # self.Hospital=ttk.Treeview(Detailsframe,column=("nameoftable","ref","dose","nooftablets","lot","issuedate",
+        #                                                       "dailydose","storage","nhsnumber","pname","dob","address"),xscrollcommand=scroll_x.set,yscrollcommand=scroll_y.set)
+        # scroll_x.pack(side=BOTTOM,fill=X)
+        # scroll_y.pack(side=RIGHT,fill=Y)
+
+        # scroll_x=ttk.Scrollbar(command=self.Hospital.xview)
+        # scroll_y=ttk.Scrollbar(command=self.Hospital.yview)
+
+        # self.Hospital.heading("nameoftable",text="Name Of Tablets")
+        # self.Hospital.heading("ref",text="Reference No.")
+        # self.Hospital.heading("dose",text="Dose")
+        # self.Hospital.heading("nooftablets",text="No Of Tablets")
+        # self.Hospital.heading("lot",text="Lot")
+        # self.Hospital.heading("issuedate",text="Issue Date")
+        # self.Hospital.heading("expdate",text="Exp Date")
+        # self.Hospital.heading("dailydose",text="Daily Dose")
+        # self.Hospital.heading("storage",text="Storage")
+        # self.Hospital.heading("nhsnumber",text="NHS Number")
+        # self.Hospital.heading("pname",text="Patient Name")
+        # self.Hospital.heading("dob",text="DOB")
+        # self.Hospital.heading("address",text="Address")
+        # self.Hospital["show"]="heading"
+        # self.Hospital.pack(fill=BOTH,expand=1)
